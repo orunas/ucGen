@@ -1,0 +1,9 @@
+graph {
+	Department1 [fontsize=8 height=0.5 labelloc=b margin="0,0.3" shapefile="actor.png"]
+	Department1 -- "F1.1"
+	Department2 [fontsize=8 height=0.5 labelloc=b margin="0,0.3" shapefile="actor.png"]
+	Department2 -- "F1.2"
+	Department3 [fontsize=8 height=0.5 labelloc=b margin="0,0.3" shapefile="actor.png"]
+	Department3 -- "F1.3"
+	Department3 -- "F2.1"
+}

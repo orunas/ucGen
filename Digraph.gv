@@ -1,0 +1,31 @@
+digraph {
+	subgraph cluster_Material {
+		label=Material
+		Start
+		P1
+		P2
+		End
+	}
+	subgraph cluster_Department1 {
+		label=Department1
+		"F1.1"
+	}
+	subgraph cluster_Department2 {
+		label=Department2
+		"F1.2"
+	}
+	subgraph cluster_Department3 {
+		label=Department3
+		"F1.3"
+		"F2.1"
+	}
+	Start -> P1
+	P1 -> "F1.1"
+	P1 -> P2
+	P2 -> "F2.1"
+	P2 -> End
+	"F1.1" -> "F1.2"
+	"F1.2" -> "F1.3"
+	"F1.3" -> P1
+	"F2.1" -> P2
+}

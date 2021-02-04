@@ -1,0 +1,9 @@
+digraph G {
+	subgraph cluster_1 {
+		b0
+		b1
+		b2
+		b3
+		label="process #2"
+	}
+}
