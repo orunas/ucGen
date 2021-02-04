@@ -1,0 +1,7 @@
+name: ucGen
+channels:
+  - conda-forge
+dependencies:
+  - graphviz
+  - python-graphviz
+  - pydot
